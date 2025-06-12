@@ -5,12 +5,19 @@
     font-family: 'Pretendard', sans-serif;
 }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(to bottom, #e0f3ff, #ffffff);
     text-align: center;
     min-height: 100vh;
-    position: relative;
     padding-bottom: 80px;
+    box-sizing: border-box;
 }
 
 header {
